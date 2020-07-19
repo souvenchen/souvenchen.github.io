@@ -16,7 +16,7 @@
         <script>/* Pinegrow Interactions, do not remove */ try{if(!document.documentElement.hasAttribute('data-pg-ia-disabled')) { var style = document.createElement('style');var pgcss='html:not(.pg-ia-no-preview) [data-pg-ia-hide=""] {opacity:0;visibility:hidden;}html:not(.pg-ia-no-preview) [data-pg-ia-show=""] {opacity:1;visibility:visible;display:block;}';if(document.documentElement.hasAttribute('data-pg-id')?document.documentElement.hasAttribute('data-pg-mobile'):(screen.width<1000&&screen.height<1000)){pgcss+='html:not(.pg-ia-no-preview) [data-pg-ia-hide="mobile"] {opacity:0;visibility:hidden;}html:not(.pg-ia-no-preview) [data-pg-ia-show="mobile"] {opacity:1;visibility:visible;display:block;}';}else{pgcss+='html:not(.pg-ia-no-preview) [data-pg-ia-hide="desktop"] {opacity:0;visibility:hidden;}html:not(.pg-ia-no-preview) [data-pg-ia-show="desktop"] {opacity:1;visibility:visible;display:block;}';}style.innerHTML=pgcss;document.querySelector('head').appendChild(style);}}catch(e){console&&console.log(e);}</script>
         <link rel="stylesheet" href="https://cdn.staticfile.org/twitter-bootstrap/3.3.7/css/bootstrap.min.css">
         <script src="https://cdn.staticfile.org/jquery/2.1.1/jquery.min.js"></script>
-        <script type="text/javascript" src="./js/jquery.cookie.js"></script>         
+        <script type="text/javascript" src="./js/jquery.cookie.js"></script> 
         <script src="https://cdn.staticfile.org/twitter-bootstrap/3.3.7/js/bootstrap.min.js"></script>
         <link rel="stylesheet" href="css/sidebarstyle.css">
         <script src="https://cdn.bootcss.com/jquery/3.2.1/jquery.min.js"></script>
@@ -27,17 +27,13 @@
             <a href="index.html">Introduction</a>
             <h2>Create Your PIS</h2>
             <ul>
-                <li>
-                    <a href="CustomInformation.html">Custom Information</a>
-                </li>
-                <li>
-                    <a href="DataInformation.html">Data Information</a>
-                </li>
+                <li><a href="CustomInformation.html">Custom Information</a></li>
+                <li><a href="DataInformation.html">Data Information</a></li>
             </ul>
             <a href="http://web.inf.ed.ac.uk/infweb/research/ethics-and-integrity/ethics-procedure" target="_blank">Ethics procedure</a>
             <a href="PISTemplates.html">Original Templates</a>
             <a href="Examples.html">More Examples</a>
-            <a href="javascript:history.go(-1)">Back to previous page</a> 
+            <a href="javascript:history.go(-1)">Back to previous page</a>  
         </div>
         <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776;</span>
         <script type="text/javascript">
@@ -54,7 +50,7 @@
                 document.body.style.backgroundColor = "white";
                 }
             </script>
-        <script>
+             <script>
                 $(function(){
                     $('.sidenav h2').on('click', function(){
                         $(this).next('ul').toggleClass('active')
@@ -74,45 +70,54 @@
                             <div class="alert alert-info alert-dismissable" id="alert_compensation" style="position: absolute;" data-pg-ia-hide> 
                                 <button type="button" class="close" onclick="$('#alert_compensation').hide();" aria-hidden="true">
                                     &times;
-</button>
-                                <strong>Commpensation</strong> 
-                                <p>includes any form economic benefit, including money, material goods, even soft dollar compensation(research services, software, clearing services, etc.).</p>
-                            </div>                             
+    </button>
+                                <strong>Commpensation</strong> <p>includes any form economic benefit, including money, material goods, even soft dollar compensation(research services, software, clearing services, etc.).</p>
+                            </div>      
                             <div class="alert alert-info alert-dismissable" id="alert_benefit" style="position: absolute;" data-pg-ia-hide> 
                                 <button type="button" class="close" onclick="$('#alert_benefit').hide();" aria-hidden="true">
                                     &times;
-</button>
-                                <strong>Benefit</strong> 
-                                <p>means any form of compensation, e.g. pizza. Mention it if there do exist any compensation.</p>
-                            </div>                             
+    </button>
+                                <strong>Benefit</strong> <p>means any form of compensation, e.g. pizza. Mention it if there do exist any compensation.</p>
+                            </div>                   
                             <div class="alert alert-info alert-dismissable" id="alert_yes_compensation" style="position: absolute;"> 
                                 <button type="button" class="close" onclick="$('#alert_yes_compensation').hide();" aria-hidden="true">
                                     &times;
-</button>
+    </button>
                                 <strong>Attention:</strong> 
-                                <p>If you will provide participants with some form of compensation, you need to clearly indicate what the specific compensation is. During the implementation of the project, please ensure that you can deliver on your promises. <br> <b>Example:</b>  <br> <i>Pay by voucher</i>: "You will get a £10 voucher from Amazon for participating in this research." <br> <i>Pay by money</i>: "You will receive £10 in cash for participating in this research." <br> </p>
-                            </div>                             
+                                <p>If you will provide participants with some form of compensation, you need to clearly indicate what the specific compensation is. During the implementation of the project, please ensure that you can deliver on your promises.
+                                    <br>
+                                    <b>Example:</b> 
+                                    <br>
+                                    <i>Pay by voucher</i>: "You will get a £10 voucher from Amazon for participating in this research."
+                                    <br>
+                                    <i>Pay by money</i>: "You will receive £10 in cash for participating in this research."
+                                    <br>
+                                </p>
+                            </div>                         
                             <div class="alert alert-info alert-dismissable" id="alert_no_compensation" style="position: absolute;"> 
                                 <button type="button" class="close" onclick="$('#alert_no_compensation').hide();" aria-hidden="true">
                                     &times;
-</button>
+    </button>
                                 <strong>Attention:</strong> 
                                 <p>
                                     If your study will not provide any compensation, you can say "You will not get any benefit for participating in this study." You can also delete this part directly from the template.  </p>
-                            </div>                             
+                            </div>                         
                             <div class="alert alert-info alert-dismissable" id="alert_yes_benefit" style="position: absolute; text-align: left;"> 
                                 <button type="button" class="close" onclick="$('#alert_yes_benefit').hide();" aria-hidden="true">
                                     &times;
-</button>
+    </button>
                                 <strong>Attention:</strong> 
                                 <p>
-                                If there’s any form of benefits, do mention it in this part clearly. <b>Example:</b> <br>
-                                "You will get a pizza coupon for participating in this research." </p>
-                            </div>                             
+                                If there’s any form of benefits, do mention it in this part clearly.
+                                <b>Example:</b>
+                                <br>
+                                "You will get a pizza coupon for participating in this research."
+                                </p>
+                            </div>                         
                             <div class="alert alert-info alert-dismissable" id="alert_no_benefit" style="position: absolute; text-align: left;"> 
                                 <button type="button" class="close" onclick="$('#alert_no_benefit').hide();" aria-hidden="true">
                                     &times;
-</button>
+    </button>
                                 <strong>Tips:</strong> 
                                 <p>If your project will not bring physical benefits, you can describe the learning or spiritual benefits of your project.</p>
                                 <b>Examples:</b>
@@ -122,7 +127,7 @@
                             <div class="alert alert-info alert-dismissable" id="alert_risk" style="position: absolute; text-align: left;" data-pg-ia-hide> 
                                 <button type="button" class="close" onclick="$('#alert_risk').hide();" aria-hidden="true">
                                     &times;
-</button>
+    </button>
                                 <strong>Risks</strong> 
                                 <p style="text-align: left;">include information about physical and mental health, race, ethnicity, political opinions, religious beliefs, trade union membership, sexual orientation, genetic data, biometric data. </p>
                                 <p style="text-align: left;"><b>For  example:</b></p>
@@ -135,20 +140,20 @@
                             <div class="alert alert-info alert-dismissable" id="alert_yes_risk" style="position: absolute; text-align: left;"> 
                                 <button type="button" class="close" onclick="$('#alert_yes_risk').hide();" aria-hidden="true">
                                     &times;
-</button>
+    </button>
                                 <strong>Attentions:</strong> 
                                 <li style="text-align: left;">
                                     In this section include any potential risk or discomforts, and how those risks will be addressed if they arise. If you believe there are no risks involved, since there is never a guarantee, state that there are “no known risks”. 
-</li>
+    </li>
                             </div>
                             <div class="alert alert-dismissable alert-info text-left" id="alert_no_risk" style="position: absolute;"> 
                                 <button type="button" class="close" onclick="$('#alert_no_risk').hide();" aria-hidden="true">
                                     &times;
-</button>
+    </button>
                                 <strong>Examples:</strong> 
                                 <li style="text-align: center;" class="text-left">
                                     There are no significant risks associated with participation. 
-</li>
+    </li>
                             </div>
                         </div>
                         <div class="col-lg-8 col-md-8 order-md-1 text-left w-auto">
@@ -161,7 +166,7 @@
                                         <div class="audi_compensation" id="audi_compensation">
                                             <div class="custom-control custom-radio w-25"> 
                                                 <input id="yes_compensation" name="compensationradio" type="radio" class="custom-control-input" value="1"> 
-                                                <label class="custom-control-label" for="yes_compensation" style="font-weight: normal;">Yes</label>                                                 
+                                                <label class="custom-control-label" for="yes_compensation" style="font-weight: normal;">Yes</label>                                             
                                             </div>
                                             <div class="custom-control custom-radio w-25"> 
                                                 <input id="no_compensation" name="compensationradio" type="radio" class="custom-control-input" value="2"> 
@@ -195,6 +200,7 @@
                                     <h5>Start your writing here:</h5>
                                     <textarea cols="" id="benefit_text" class="w-100" rows="3"></textarea>
                                 </div>
+                                
                                 <div class="mb-3">
                                     <label for="risk">
                                         <span style="font-weight: normal;">3. Are there any </span>
@@ -203,7 +209,7 @@
                                         <div class="audi_risk" id="audi_risk">
                                             <div class="custom-control custom-radio w-25"> 
                                                 <input id="yes_risk" name="riskradio" type="radio" class="custom-control-input" value="1"> 
-                                                <label class="custom-control-label" for="yes_risk" style="font-weight: normal;">Yes</label>                                                 
+                                                <label class="custom-control-label" for="yes_risk" style="font-weight: normal;">Yes</label>                                             
                                             </div>
                                             <div class="custom-control custom-radio w-25"> 
                                                 <input id="no_risk" name="riskradio" type="radio" class="custom-control-input" value="2"> 
@@ -299,9 +305,6 @@
                                     })
                                 </script>
                             </form>
-                            <div class="border-dark">
-                                <h5><p><i class="text-muted">In the next section, for more information, you can click on &quot;<b>Explanation</b>&quot; and &quot;<b>Examples</b>&quot;. <u>Enter your writing in the blank input box</u> to generate your own PIS template later.</i></p></h5>
-                            </div>
                             <div class="mb-3">
                                 <label for="results">
                                     <span style="font-weight: normal;">4. What will happen to the results of this study? </span>
@@ -309,10 +312,10 @@
                                 <ul class="nav nav-tabs" role="tablist"> 
                                     <li class="nav-item"> 
                                         <a class="nav-link active" href="#tab1" data-toggle="tab" role="tab" aria-controls="tab1" aria-expanded="true">Explanation</a> 
-                                    </li>                                     
+                                    </li>                                 
                                     <li class="nav-item"> 
                                         <a class="nav-link" href="#tab2" data-toggle="tab" role="tab" aria-controls="tab2" aria-expanded="true">Examples</a> 
-                                    </li>                                     
+                                    </li>                                 
                                 </ul>
                                 <div class="tab-content">
                                     <div class="active tab-pane" role="tabpanel" aria-labelledby="tab1-tab" id="tab1">
@@ -333,10 +336,10 @@
                                 <ul class="nav nav-tabs" role="tablist"> 
                                     <li class="nav-item"> 
                                         <a class="active nav-link" href="#purposetab1" data-toggle="tab" role="tab" aria-controls="tab1" aria-expanded="true">Explanation</a> 
-                                    </li>                                     
+                                    </li>                                 
                                     <li class="nav-item"> 
                                         <a class="nav-link" href="#purposetab2" data-toggle="tab" role="tab" aria-controls="tab2" aria-expanded="true">Examples</a> 
-                                    </li>                                     
+                                    </li>                                 
                                 </ul>
                                 <div class="tab-content">
                                     <div class="active tab-pane" role="tabpanel" aria-labelledby="tab1-tab" id="purposetab1">
@@ -359,10 +362,10 @@
                                 <ul class="nav nav-tabs" role="tablist"> 
                                     <li class="nav-item"> 
                                         <a class="nav-link active" href="#reasontab1" data-toggle="tab" role="tab" aria-controls="tab1" aria-expanded="true">Explanation</a> 
-                                    </li>                                     
+                                    </li>                                 
                                     <li class="nav-item"> 
                                         <a class="nav-link" href="#reasontab2" data-toggle="tab" role="tab" aria-controls="tab2" aria-expanded="true">Examples</a> 
-                                    </li>                                     
+                                    </li>                                 
                                 </ul>
                                 <div class="tab-content">
                                     <div class="active tab-pane" role="tabpanel" aria-labelledby="tab1-tab" id="reasontab1">
@@ -371,12 +374,10 @@
     In this part, what must have to be written here is an overview of what participant characteristics are needed for the study. It could be better to describe inclusion criteria, for example: participants has some motor ability in both hands and can verbally communicate. </p>
                                     </div>
                                     <div class="tab-pane" role="tabpanel" aria-labelledby="tab2-tab" id="reasontab2">
-                                        <p class="border ml-auto pb-2 pl-4 pr-4 pt-2 text-justify"> 
-                                            1. We are advertising the study to people who have more than 3 childrens.<br>
-                                            2. We are advertising the study to researchers with experience in writing participants information sheets.<br>
-                                            3. We are advertising the study to people who are currently at University and are over 18 years old. <br>
-                                            4. We are advertising the study to people who are over 20 years old and have long brown hair.<br>
-                                            5. We are advertising the study to people who have some motor ability in both hands and can verbally communicate. </p>
+                                        <p class="border ml-auto pb-2 pl-4 pr-4 pt-2 text-justify"> 1. We are asking any University of Edinburgh staff and students who receive phishing emails to take part. <br>
+                    2. We are advertising the study to researchers with experience in writing participants information sheets and ethics panel members.  <br>
+                    3. We are advertising the study to people who are currently at University and are over 18 years old and are not currently using the Unicorn+ app. <br>
+                    4. We are asking people who has some motor ability in both hands and can verbally communicate. </p>
                                     </div>
                                     <h5>Start your writing here:</h5>
                                 </div>
@@ -419,6 +420,7 @@
                             </script>
                         </div>
                     </div>
+                
                     <a class="btn btn-block btn-lg btn-primary float-right w-25" onclick="getvalue()" style="background-color: #18335c; font-family: 'Archivo Black', sans-serif; position: static;" href="DataInformation.html">NEXT PAGE</a>
                 </div>
             </div>
@@ -434,8 +436,8 @@
         <script src="assets/js/ie10-viewport-bug-workaround.js"></script>
         <script type="text/javascript" src="pgia/lib/pgia.js"></script>
         <script src="https://cdn.staticfile.org/jquery/2.1.1/jquery.min.js"></script>
-        <script type="text/javascript" src="./js/jquery.cookie.js"></script>         
-        <script type="text/javascript">
+        <script type="text/javascript" src="./js/jquery.cookie.js"></script> 
+            <script type="text/javascript">
                 function getvalue(){
                   var str_result = $('#compensation_text').val();
                   document.getElementById("compensation_text").innerHTML = str_result;
