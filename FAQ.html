@@ -21,10 +21,14 @@
         <link rel="stylesheet" href="css/sidebarstyle.css">
         <script src="https://cdn.bootcss.com/jquery/3.2.1/jquery.min.js"></script>
     </head>
-    <body onload="openNav()">
+    <body>
         <div id="mySidenav" class="sidenav">
             <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-           
+           <script>
+                document.getElementById("mySidenav").style.width = "250px";
+                document.getElementById("main").style.marginLeft = "250px";
+                document.body.style.backgroundColor = "rgba(0,0,0,0.0)";
+           </script>
             <h2>Create Your PIS</h2>
             <ul>
                 <li>
