@@ -24,7 +24,7 @@
     <body>
         <div id="mySidenav" class="sidenav">
             <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-            <script>
+           <script>
                 document.getElementById("mySidenav").style.width = "250px";
                 document.getElementById("main").style.marginLeft = "250px";
                 document.body.style.backgroundColor = "rgba(0,0,0,0.0)";
@@ -33,27 +33,49 @@
             <a href="PISTemplates.html">Original Templates</a>
             <a href="Examples.html">Example PIS</a>
             <a href="http://web.inf.ed.ac.uk/infweb/research/ethics-and-integrity/ethics-procedure" target="_blank">Ethics Procedure</a>
-            <a href="http://resource.ppls.ed.ac.uk/lelethics/" target="_blank">Ethics Information For Language</a>
-            <a href="FAQ.html" class="bg-white text-dark">Q&A</a>
+            <a href="http://resource.ppls.ed.ac.uk/lelethics/" target="_blank">Ethics information for Language</a>
+            <a href="FAQ.html" class="bg-white text-dark">FAQ</a>
             <a href="javascript:history.go(-1)">Back to Previous Page</a> 
         </div>
         <span style="font-size:50px;cursor:pointer" onclick="openNav()">&#9776;</span>
+
         <div id="main">
-            <div class="bg-white container w-75" style="font-size: 19px; text-align: left;">
+            <div class="bg-white container w-75">
                 <img src="img/InformaticsUni_CMYK.png" width="600">
-                <h2 style="font-family: 'Archivo Black', sans-serif; background-color: #0f3260; color: #e5e5e5; text-align: center;">Q&amp;A</h2>
-                <h4></h4>
-                <h4><b>Q: What is participant information sheet (PIS)?</b></h4>
-                <p class="text-muted"></p>
-                <p class="text-muted">A: The participant information sheet is used to explain the purpose of the research and what participants will be required to do /how participants will be involved.  It should be in plain English, using language appropriate to the target audience. In some cases it will be appropriate to have the information sheet translated into a language other than English, or to provide an interpreter.</p>
-                <h4></h4>
-                <h4><b>Q: Why I need to write a participant information sheet (PIS)?</b></h4>
-                <p class="text-muted">A: Participant Information Sheets and Consent Forms are important aspects to the organisation and conduct of a study. The participant Information Sheet gives potential participants the necessary understanding for the motivation and procedures of the study and sources of information to answer any further questions to allow them to give informed consent. A Consent Form essentially reprises this information to ensure the key points are understood and then records this understanding, usually with a signature. Consent may also be recorded electronically, for example through web-forms by clicking a button. More than one Consent Form may be needed (for adults and children separately, for example). Consent Forms are usually in addition to Participant Information Sheets.</p>
-                <h4><b></b></h4>
-                <h4><b>Q: What this website for?</b></h4>
-                <p class="text-muted">A: The purpose of the website is mainly to guide website users to complete the PIS through the "question-hint-answer" method. Under the guidance of relevant prompts, the website can help users complete PIS writing more efficiently and with high quality. </p>
-                <p class="text-muted">
-The website automatically generates the PIS Latex Code according to the user input, and provides the download link of the tex file of the code, helping users quickly produce PIS documents.</p>
+                <h2 style="font-family: 'Archivo Black', sans-serif; background-color: #0f3260; color: #e5e5e5; text-align: center;">Introduction</h2>
+                <h4>
+        Introduction of this website </h4>
+                <p>
+    This web page provides pages to help write PIS and related resources that may be needed to write PIS. The following is a brief introduction to the use of the website. </p>
+                <h4 spellcheck="true" data-medium-editor-element="true" role="textbox" aria-multiline="true" data-medium-editor-editor-index="2" medium-editor-index="3ccb9ba9-3b7a-2694-ddfc-a0a2d7d20ab5" data-placeholder="Type your text" data-medium-focused="true">STEP1: Structure of the website</h4>
+                <div class="card"> 
+                    <img class="card-img-top" src="/img/intro1.png" alt="Card image cap"> 
+                    <div class="card-body"> 
+                        <p class="card-text">The webpage provides a side navigation bar that can be hidden, and you can browse related webpages according to your needs. Click the cross in the upper right corner of the navigation bar to hide the navigation bar.</p>
+                    </div>                     
+                </div>
+                <h4 class="card-title">STEP2: Create Your PIS</h4>
+                <div class="card"> 
+                    <img class="card-img-top" src="/img/intro2.png" alt="Card image cap"> 
+                    <div class="card-body"> 
+                        <p class="card-text">There are two pages "Custom Information" and "Data Information" in this section. You can get more information by clicking on the underlined term in the question. Relevant information will be displayed in the Hints column in the form of a blue warning box. The cross in the upper right corner of the warning box is used to close the window.</p>
+                    </div>
+                </div>
+                <h4 spellcheck="true" data-medium-editor-element="true" role="textbox" aria-multiline="true" data-medium-editor-editor-index="2" medium-editor-index="3ccb9ba9-3b7a-2694-ddfc-a0a2d7d20ab5" data-placeholder="Type your text" data-medium-focused="true">STEP3: View & Download Latex Code</h4>
+                <div class="card"> 
+                    <img class="card-img-top" src="/img/intro3.png" alt="Card image cap"> 
+                    <div class="card-body"> 
+                        <p class="card-text">After entering relevant content in the blank input boxes provided in the two pages under Create Your PIS, click the "Get Latex Code" button, you can see the generated Latex Code in the lower text area. This part of the code can be modified by yourself. After generating the code, click the "download" button, and the browser will automatically download the tex file.</p>
+                    </div>                     
+                </div>
+                <h4 class="card-title">STEP4: View More Information</h4>
+                <div class="card"> 
+                    <img class="card-img-top" src="/img/intro4.png" alt="Card image cap"> 
+                    <div class="card-body"> 
+                        <p class="card-text">You can view more related information in "More Examples", "Ethics Procedure" and "Original Resource".</p>
+                    </div>
+                </div>
+                <a class="btn btn-block btn-lg btn-primary float-right w-25" style="background-color: #18335c; font-family: 'Archivo Black', sans-serif; position: static;" href="CustomInformation.html">START MY PIS</a>
             </div>
         </div>
         <!-- Bootstrap core JavaScript
